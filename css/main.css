@@ -6,9 +6,13 @@ html {
     line-height: 1.4;
 }
 
+.header-container {
+    padding-bottom: 20px;
+}
+
 .tweet-container {
-    min-width: 465px;
-    min-height: 64px;
+    min-width: 50%;
+    min-height: 50%;
 }
 
 label {
