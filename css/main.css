@@ -6,6 +6,11 @@ html {
     line-height: 1.4;
 }
 
+.tweet-container {
+    min-width: 465px;
+    min-height: 64px;
+}
+
 label {
     padding: 10px;
 }
