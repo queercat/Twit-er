@@ -26,9 +26,6 @@ input {
     max-width: 465;
 }
 
-aside {
-    width: 200px;
-}
 
 a:active {
     color: #fff;
@@ -119,7 +116,7 @@ body {
 }
 
 .footer-container,
-.main aside {
+ {
     border-top: 20px solid #e44d26;
     color: white;
 }
@@ -130,7 +127,7 @@ body {
 
 .header-container,
 .footer-container,
-.main aside {
+ {
     background: #f16529;
 }
 
@@ -180,11 +177,6 @@ nav a:hover {
 
 .main article h1 {
     font-size: 2em;
-}
-
-.main aside {
-    color: white;
-    padding: 0px 5% 20px;
 }
 /* ===============
     ALL: IE Fixes
@@ -258,7 +250,7 @@ nav a:hover {
    ==================== */
 
     .header-container,
-    .main aside {
+     {
         -webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
@@ -289,6 +281,8 @@ nav a:hover {
     .main aside {
         float: right;
         width: 28%;
+        border-bottom: 20px solid #e44d26;
+        border-top: 20px solid #e44d26;
     }
 }
 
