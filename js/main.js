@@ -17,7 +17,7 @@ function modifyText() {
             newText += text.slice(i, i + 1)
         }
     }
-    window.open("https://twitter.com/intent/tweet?text=" + newText + "&hashtags= #twit_er");
+    window.open("https://twitter.com/intent/tweet?text=" + newText + "&hashtags=#twit_er");
 }
 
 //<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text="> Tweet</a>                        
